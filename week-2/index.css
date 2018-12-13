@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      span /*selector */ {
+        color: red;
+        font-sixe: 12px;
+      }
+      
+      .anotherClass /* #2 */ {
+        color: blue;
+      }
+      
+       #someId {
+      color: green;
+      }
+      
+      .anotherClass {
+        color:blanchedalmond;
+      }
+      
+
+  </head>
+  </style>
+  <body>
+    <p>Hi I'm Text</p>
+    
+    <span> class="someClass">Hi</span>
+    <span> id="someId" class="anotherClass">Should not be blue</span>
+  </body>
+</html>
