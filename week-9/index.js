@@ -8,3 +8,5 @@
 
 // fetches use promises
 fetch('http://api.github.com/users/mirandamon').then (whenDataIsloaded)
+
+consoole.log('first log')
