@@ -6,5 +6,6 @@
 //we don't want to block the UI from loading until everything is done
 //we dont want to block the UI from loading until everything is done. we want to show things as on as possible
 
-// fetches use promies
+// fetches use promises
+
 const data = fetch('http://api.github.com/users/mirandamon')
