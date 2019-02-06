@@ -7,6 +7,8 @@
 //we dont want to block the UI from loading until everything is done. we want to show things as on as possible
 
 // fetches use promises
+//1.convert data into JSON
+//2. tak the json and do whatever you want with it
 fetch('http://api.github.com/users/mirandamon').then (whenDataIsloaded)
 
-consoole.log('first log')
+console.log('first log')
