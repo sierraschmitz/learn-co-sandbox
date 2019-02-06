@@ -1,0 +1,1 @@
+const data = fetch('http://api.github.com/users/mirandamon')
